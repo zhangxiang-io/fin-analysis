@@ -1,0 +1,5 @@
+data_source:
+  file_dir: "files"  # 明确使用相对路径，指向项目根目录下的files文件夹
+database:
+  mongo_uri: "mongodb://root:root123@localhost:27017/"
+  db_name: "financial_data"
